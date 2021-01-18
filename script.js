@@ -68,7 +68,6 @@ function calculateWidth(color) {
         return
     }
     var percentage = (currentproduct / totalProduct) * 100
-    console.log(percentage)
     buy.style.background = "-webkit-linear-gradient(left, orange " + percentage + "%, white 0%)"
     stock.innerHTML = currentproduct + " left out of " + totalProduct
 }
