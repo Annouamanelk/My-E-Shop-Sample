@@ -4,6 +4,10 @@
     font-family : 'Montserrat', sans-serif;    box-sizing : border-box;
 }
 
+body{
+    background-color: #e8f9fc;
+}
+
 /*Header Style*/
 
 header {
